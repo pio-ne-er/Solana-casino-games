@@ -29,4 +29,4 @@ This is the step of My bundler.
 
 ##8. Sell tokens at once from 21 wallets using bundle when you want
 
-##9. Gathering Sol from 21 wallets you bundle buy and sell
+##9. Gathering Sol from 21 wal lets you bundle buy and sell
