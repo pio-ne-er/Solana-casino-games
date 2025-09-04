@@ -1,5 +1,9 @@
 # Solana-Casino-Games
 
+# Contact
+
+Telegram: [Pioneer](https://t.me/hi_3333)
+
 My Casino game project went live!
 Let's play GGSOLio game in https://ggsol.io
 
