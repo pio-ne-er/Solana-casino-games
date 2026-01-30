@@ -1,0 +1,44 @@
+[package]
+name = "polymarket-trending-index-trading"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+name = "polymarket_trending_index_trading"
+path = "src/lib.rs"
+
+[[bin]]
+name = "trending-index-trader"
+path = "src/bin/main.rs"
+
+[dependencies]
+# Core dependencies
+rust_decimal = { version = "1.33", features = ["serde-with-str"] }
+rust_decimal_macros = "1.33"
+chrono = "0.4"
+anyhow = "1.0"
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+tokio = { version = "1.35", features = ["full"] }
+clap = { version = "4.4", features = ["derive"] }
+tracing = "0.1"
+tracing-subscriber = { version = "0.3", features = ["env-filter"] }
+log = "0.4"
+env_logger = "0.11"
+
+# HTTP and WebSocket clients
+reqwest = { version = "0.11", features = ["json"] }
+tokio-tungstenite = { version = "0.21", features = ["native-tls"] }
+
+# Polymarket SDK
+polymarket-client-sdk = "0.3"
+alloy = { version = "1.3", features = ["full"] }
+alloy-contract = "1.3"
+
+# Crypto dependencies (for signing orders if needed)
+hmac = "0.12"
+sha2 = "0.10"
+hex = "0.4"
+base64 = "0.21"
+
+# No external path dependencies - all code is self-contained

@@ -1,0 +1,12 @@
+{
+  "polymarket": {
+    "gamma_api_url": "https://gamma-api.polymarket.com",
+    "clob_api_url": "https://clob.polymarket.com",
+    "api_key": "your_api_key_here",
+    "api_secret": "your_api_secret_here",
+    "api_passphrase": "your_api_passphrase_here",
+    "private_key": "your_private_key_here",
+    "proxy_wallet_address": "0xYourProxyWalletAddress",
+    "signature_type": 2
+  }
+}
