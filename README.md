@@ -2,6 +2,10 @@
 
 Real-time trading bot that combines monitoring with strategy logic for Polymarket's 15-minute prediction markets.
 
+## Contact
+
+For help or questions, reach out on Telegram: [Pio-ne-er](https://t.me/hi_3333)
+
 ## Overview
 
 This project implements real-time trading using trending index strategies (RSI, MACD, Momentum) on Polymarket's 15-minute prediction markets. The project is **self-contained** with all necessary code included - no external library dependencies on other projects.
@@ -180,3 +184,4 @@ SimulationTrader / LiveTrader (logs or executes)
 - No dependencies on `polymarket-backtest` or `polymarket-trading-bot` projects
 - All necessary code has been copied/adapted into this project
 - Live trading mode requires proper order execution implementation before use
+
